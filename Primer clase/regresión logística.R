@@ -3,7 +3,7 @@
 
 # ---------------------
 # leer datos archivos
-datos <- read.table("incidencia.txt", header = T)
+datos <- read.table("clipboard", header = T)
 View(datos)
 names(datos)
 
